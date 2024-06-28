@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RealDashCAN version="2">
+  <frames>
+
+    <frame id="0x200">
+
+      <value targetId="31" units="kPA" offset="4" length="2"></value> <!-- MAP -->
+      <value targetId="14" units="C" offset="6" length="1" conversion="V-40"></value>      <!-- CLT -->
+      <value targetId="27" units="C" offset="7" length="1" conversion="V-40"></value>      <!-- IAT -->
+
+    </frame>
+
+
+    <frame id="0x201">
+      <value targetId="0" units="AFR" offset="2" length="1" conversion="V/10"></value>
+      <value targetId="37" units="RPM" offset="6" length="2"></value>
+
+    </frame>
+
+
+    <frame id="0x203">
+      <value targetId="42" units="%" offset="1" length="2" conversion="V*0.5"></value>      <!-- TPS  -->
+    </frame>
+
+    <frame id="0x209">
+      <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 1 -->
+      <value targetId="36" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 1 -->
+    </frame>
+
+    <frame id="0x20d">
+      <value targetId="81" units="kph" offset="0" length="2" conversion="V*0.1"></value> <!-- VSS1 -->
+    </frame>
+
+
+  </frames>
+</RealDashCAN>
+

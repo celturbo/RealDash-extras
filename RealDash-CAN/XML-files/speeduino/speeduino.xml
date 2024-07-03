@@ -19,7 +19,7 @@
 
 
     <frame id="0x203">
-      <value targetId="42" units="%" offset="1" length="2" conversion="V*0.5"></value>      <!-- TPS  -->
+      <value targetId="42" units="%" offset="1" length="1" conversion="V*0.5"></value>      <!-- TPS  -->
     </frame>
 
     <frame id="0x209">

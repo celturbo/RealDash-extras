@@ -10,8 +10,14 @@
 
     </frame>
 
+     <frame id="0x200">
+      <value targetId="35" units="PW" offset="4" length="2" conversion="V*0.001"></value> <!-- PW1 -->
+      
+
+    </frame>
 
     <frame id="0x201">
+      <value targetId="12" units="V" offset="1" length="1" conversion="V/10"></value>      <!-- Bat Volt -->
       <value targetId="0" units="AFR" offset="2" length="1" conversion="V/10"></value>
       <value targetId="37" units="RPM" offset="6" length="2"></value>
 
@@ -19,19 +25,25 @@
 
 
     <frame id="0x203">
+      <value targetId="38" offset="0" length="1" conversion="V"></value>      <!-- Advance  -->
       <value targetId="42" units="%" offset="1" length="1" conversion="V*0.5"></value>      <!-- TPS  -->
     </frame>
 
     <frame id="0x209">
-      <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 1 -->
-      <value targetId="36" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 1 -->
+      <value targetId="36" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
+      <value name="Sepeduino: Pulse Width 3" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
     </frame>
 
     <frame id="0x20d">
-      <value targetId="81" units="kph" offset="0" length="2" conversion="V*0.1"></value> <!-- VSS1 -->
+      <value targetId="81" units="kph" offset="0" length="2"></value> <!-- VSS1 -->
+      <value targetId="200" offset="2" length="1"></value> <!-- Gear -->
+      <value targetId="202" units="psi" offset="3" length="1"></value> <!-- fuel pressure-->
+      <value targetId="151" units="psi" offset="4" length="1"></value> <!-- oil pressure -->
+      <value Name="Speeduino: WMI " units="PW" offset="5" length="1"></value> <!-- oil pressure -->
+   
     </frame>
-
-
+  
+  
   </frames>
 </RealDashCAN>
 

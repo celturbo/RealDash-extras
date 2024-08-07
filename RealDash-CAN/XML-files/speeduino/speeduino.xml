@@ -10,11 +10,7 @@
 
     </frame>
 
-     <frame id="0x200">
-      <value targetId="35" units="PW" offset="4" length="2" conversion="V*0.001"></value> <!-- PW1 -->
-      
-
-    </frame>
+    
 
     <frame id="0x201">
       <value targetId="12" units="V" offset="1" length="1" conversion="V/10"></value>      <!-- Bat Volt -->
@@ -29,10 +25,58 @@
       <value targetId="42" units="%" offset="1" length="1" conversion="V*0.5"></value>      <!-- TPS  -->
     </frame>
 
-    <frame id="0x209">
-      <value targetId="36" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
-      <value name="Sepeduino: Pulse Width 3" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+
+    <frame id="0x205">
+      <value name="Speeduino: Aux Input 0" offset="0" length="2"></value>    
+      <value name="Speeduino: Aux Input 1" offset="2" length="2"></value>   
+      <value name="Speeduino: Aux Input 2" offset="4" length="2"></value>   
+      <value name="Speeduino: Aux Input 3" offset="6" length="2"></value>   
+
     </frame>
+
+    <frame id="0x206">
+      <value name="Speeduino: Aux Input 4" offset="0" length="2"></value>    
+      <value name="Speeduino: Aux Input 5" offset="2" length="2"></value>   
+      <value name="Speeduino: Aux Input 6" offset="4" length="2"></value>   
+      <value name="Speeduino: Aux Input 7" offset="6" length="2"></value>   
+
+    </frame>
+
+     <frame id="0x207">
+      <value name="Speeduino: Aux Input 8" offset="0" length="2"></value>    
+      <value name="Speeduino: Aux Input 9" offset="2" length="2"></value>   
+      <value name="Speeduino: Aux Input 10" offset="4" length="2"></value>   
+      <value name="Speeduino: Aux Input 11" offset="6" length="2"></value>   
+
+    </frame>
+
+
+    <frame id="0x208">
+      <value name="Speeduino: Aux Input 12" offset="0" length="2"></value>    
+      <value name="Speeduino: Aux Input 13" offset="2" length="2"></value>   
+      <value name="Speeduino: Aux Input 14" offset="4" length="2"></value>   
+      <value name="Speeduino: Aux Input 15" offset="6" length="2"></value> 
+
+    </frame>
+
+    
+    <frame id="0x209">
+
+      <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
+      <value targetId="36" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
+      <value name="Sepeduino: Pulse Width 3" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Sepeduino: Pulse Width 4" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+  
+    </frame>
+
+    <frame id="0x20a">   
+      <value name="Sepeduino: Pulse Width 3" offset="0" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Sepeduino: Pulse Width 4" offset="2" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+  
+    </frame>
+
+
+
 
     <frame id="0x20d">
       <value targetId="81" units="kph" offset="0" length="2"></value> <!-- VSS1 -->

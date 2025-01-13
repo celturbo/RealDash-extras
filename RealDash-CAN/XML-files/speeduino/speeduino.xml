@@ -61,17 +61,16 @@
 
     
     <frame id="0x209">
-
       <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
       <value targetId="36" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
-      <value name="Sepeduino: Pulse Width 3" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
-      <value name="Sepeduino: Pulse Width 4" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Speeduino: Pulse Width 3" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Speeduino: Pulse Width 4" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
   
     </frame>
 
     <frame id="0x20a">   
-      <value name="Sepeduino: Pulse Width 3" offset="0" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
-      <value name="Sepeduino: Pulse Width 4" offset="2" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Sepeeduino: Pulse Width 3" offset="0" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Sepeeduino: Pulse Width 4" offset="2" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
   
     </frame>
 

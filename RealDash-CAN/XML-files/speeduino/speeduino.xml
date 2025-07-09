@@ -5,8 +5,8 @@
     <frame id="0x200">
 
       <value targetId="31" units="kPA" offset="4" length="2"></value> <!-- MAP -->
-      <value targetId="14" units="C" offset="6" length="1" conversion="V-40"></value>      <!-- CLT -->
-      <value targetId="27" units="C" offset="7" length="1" conversion="V-40"></value>      <!-- IAT -->
+      <value targetId="27" units="C" offset="6" length="1" conversion="V-40"></value>      <!-- IAT -->
+      <value targetId="14" units="C" offset="7" length="1" conversion="V-40"></value>      <!-- CLT -->
 
     </frame>
 
@@ -61,10 +61,10 @@
 
     
     <frame id="0x209">
-      <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
+      <value targetId="35" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 1 -->
       <value targetId="36" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 2 -->
       <value name="Speeduino: Pulse Width 3" offset="4" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
-      <value name="Speeduino: Pulse Width 4" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 3 -->
+      <value name="Speeduino: Pulse Width 4" offset="6" length="2" conversion="V*0.001"></value> <!-- Pulse Width 4 -->
   
     </frame>
 
